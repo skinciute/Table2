@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+table {
+    border-collapse: collapse;
+    border: 2px solid white;
+    margin: auto;
+    font-family: raleway;
+   
+}
+th, td {
+    text-align: left;
+    padding: 20px;
+    border: 2px solid white;
+}
+th {
+    background: hsl(310deg 100% 26%);
+    color: white;
+    border: 2px solid white;
+}
+tr:nth-of-type(even) {
+    background: hsl(318deg 83% 72%);
+    color: white;
+    border: 2px solid white;
+}
+tr:nth-of-type(odd) {
+    background: hsl(319deg 36% 51%);
+    color: white;
+    border: 2px solid white;
+}
